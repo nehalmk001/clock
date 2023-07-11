@@ -1,0 +1,86 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@600&display=swap');
+body {
+    text-align: center;
+    font-family: Orbitron;
+    background-color: #DFE0DF;
+    height: 100%;
+    width: 100%;
+  }
+  #clock-frame {
+    height: 200px;
+    width: 700px;
+    margin: auto;
+    margin-top: 10%;
+    background-color: black;
+    border: 7px solid orange;
+    border-radius: 30px;
+  }
+  
+  #clock {
+    text-align: center;
+    color: green;
+    font-size: 95px;
+    padding-top: 20px;
+  }
+  
+  #ampm {
+    font-size: 25px;
+  }
+
+
+  /* Media Queries */
+
+/* Small devices (up to 576px) */
+@media (min-width: 310px) {
+    #clock-frame {
+      height: 150px;
+      width: 90%;
+      margin-top: 40%;
+    }
+    
+    #clock {
+      font-size: 40px;
+      padding-top: 10px;
+    }
+    
+    #ampm {
+      font-size: 15px;
+    }
+  }
+  
+  /* Medium devices (576px - 992px) */
+  @media (min-width: 577px) and (max-width: 992px) {
+    #clock-frame {
+      height: 175px;
+      width: 90%;
+      margin-top: 30%;
+    }
+    
+    #clock {
+      font-size: 80px;
+      padding-top: 15px;
+    }
+    
+    #ampm {
+      font-size: 20px;
+    }
+  }
+  
+  /* Large devices (992px and above) */
+  @media (min-width: 993px) {
+    #clock-frame {
+      height: 200px;
+      width: 700px;
+      margin-top: 20%;
+    }
+    
+    #clock {
+      font-size: 95px;
+      padding-top: 20px;
+    }
+    
+    #ampm {
+      font-size: 25px;
+    }
+  }
+  
